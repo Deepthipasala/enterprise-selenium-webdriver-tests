@@ -1,0 +1,7 @@
+<suite name = "review-car-reservation-module">
+    <test name="review-reservation">
+        <classes>
+            <class name = "com.hertz.tests.ReviewCarReservationTest" />
+        </classes>
+    </test>
+</suite>
