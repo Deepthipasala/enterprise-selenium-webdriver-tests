@@ -11,10 +11,11 @@ import org.testng.annotations.Test;
 
 public class ReviewCarReservationTest {
     private WebDriver driver;
+    private static final String driverPath = "C:\\Users\\Chromedriver\\chromedriver_win32\\chromedriver.exe";
 
     @BeforeTest
     public void setupDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Chromedriver\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", driverPath);
         this.driver = new ChromeDriver();
     }
 
